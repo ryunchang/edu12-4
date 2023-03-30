@@ -1,10 +1,10 @@
 def label = "agent-${UUID.randomUUID().toString()}"
 def gitBranch = 'master'
 def docker_registry = "ghcr.io"  
-def imageName = "ghcr.io/shclub/edu12-backend"
-def fromImage = "ghcr.io/shclub/jre17-runtime:v1.0.0"
-def git_ops_name = "edu12-backend-gitops"
-def P_NAMESPACE = "edu30"
+def imageName = "ghcr.io/ryunchang/edu12-backend"
+def fromImage = "ghcr.io/ryunchang/jre17-runtime:v1.0.0"
+def git_ops_name = "edu12-ryunchang-gitops"
+def P_NAMESPACE = "edu13"
 
 def TAG = getTag(gitBranch)
 
